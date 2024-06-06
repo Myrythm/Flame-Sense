@@ -106,7 +106,7 @@ void sendGasAlertToTelegram(int ppm) {
   }
 
   // Replace YOUR_CHAT_ID with the actual chat ID you obtained
-  String telegramPayload = "{\"chat_id\": 6256086672, \"text\":\"" + message + "\"}";
+  String telegramPayload = "{\"chat_id\": YOUR ID, \"text\":\"" + message + "\"}";
   teleSendMessage(telegramPayload);
   delay(2000);
 }
